@@ -22,7 +22,7 @@ The next task is to configure libpam_cracklib to check if the password contains 
         line: "password required pam_cracklib.so try_first_pass retry=3 minlen=8 reject_username enforce_for_root"
         state: present
 ```
-[Link on ansible playbook]()
+[Link on ansible playbook](https://github.com/bugaenkoyu/linux-passwords-hardening/blob/main/playbook.yml)
 
 ![Console screen when playbook run](Screenshot-console.png)
 
